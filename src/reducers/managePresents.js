@@ -6,7 +6,7 @@ export function managePresents(state = {
       return Object.assign({}, state, {
         numberOfPresents: state.numberOfPresents + 1
       });
-      
+
 
     default:
       return state;
